@@ -1,0 +1,22 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# IDE
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+bin/
+run/
+
+# OS & Logs
+.DS_Store
+Thumbs.db
+*.log
+
+# Sensitive Config
+proguard.conf
+

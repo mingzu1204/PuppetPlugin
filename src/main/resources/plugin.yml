@@ -1,0 +1,21 @@
+name: Puppet
+version: 1.0
+main: org.mingzu.puppetLite.Puppet
+api-version: '1.21'
+authors:
+  - MingZu
+softdepend:
+  - ProtocolLib
+commands:
+  puppet:
+    description: Puppet command
+    usage: /puppet <player|stop|status|list|force|inspect|accept|deny>
+    permission: puppet.use
+    aliases: [ ppt ]
+permissions:
+  puppet.use:
+    description: Allows using /puppet to start/stop/status/accept/deny sessions
+    default: op
+  puppet.admin:
+    description: Allows list, force-end, settings, fix, and inspect subcommands
+    default: op

@@ -1,0 +1,11 @@
+max-session-duration: 0
+max-concurrent-sessions: 10
+inventory-sync-interval: 10
+effect-sync-interval: 20
+require-victim-consent: false
+consent-timeout: 15
+blacklisted-worlds: []
+notify-victim-on-start: true
+log-sessions-to-console: true
+prevent-victim-damage: true
+block-victim-chat: false
